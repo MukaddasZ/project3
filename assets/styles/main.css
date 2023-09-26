@@ -1,0 +1,143 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+color: #3585F5;
+font-family: Proxima Nova;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 119.3%; /* 19.088px */
+text-decoration: none;
+}
+@font-face {
+    font-family: "Proxima Nova";
+    src: url(/assets/fonts/90882da0a943cceee1cf8a4b2fedfd73/proxima_nova_regular.css);
+}
+.head {
+    width: 100%;
+    height: 80px;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.head_content {
+    display: flex;
+    text-transform: uppercase;
+    text-decoration: none;
+    align-items: center;
+}
+.head_menu {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    list-style-type: none;
+    text-decoration: none;
+}
+.head_lang {
+    margin-right: 30px;
+}
+.head_lang ul {
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+    list-style-type: none;
+    text-decoration: none;
+    
+}
+.head_menu :nth-child(2) {
+    text-decoration: underline;
+}
+.head_image {
+    width: 100%;
+    height: 100vh;
+    z-index: -5;
+    position: absolute;
+    margin-top: 0;
+
+}
+.head_text {
+    z-index: 100;
+    color: #FFF;
+    text-align: center;
+    font-family: Proxima Nova;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 112%; /* 82.88px */
+    align-items: center;
+}
+.main {
+height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+.main_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   padding-top: 90px;
+}
+.main_text h1 {
+z-index: 100;
+color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 74px;
+font-style: normal;
+font-weight: 800;
+line-height: 112%; /* 82.88px */
+margin-top: 90px;
+}
+.main_text p {
+    z-index: 100;
+    color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 24.64px */
+margin-top: 40px;
+}
+.main_text p :first-child {
+    margin-top: 26px;
+}
+.tryforfree_btn {
+border-radius: 20px;
+background: #FFF;
+padding: 16px 22px;
+margin-top: 40px;
+color: #3585F5;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 17.92px */
+
+}
+.tryforfree_btn:hover {
+    border-radius: 20px;
+border: 2px solid #FFF;
+background: #3585F5;
+color: #FFF;
+}
+.main_text :last-child {
+    margin-top: 140px;
+    justify-content: end;
+}
+.main_vector {
+    margin-bottom: 110px;
+    /* position: relative; */
+}
+.head_lang li:hover {
+    transform: scale(1.2);
+}
+
+
+
+

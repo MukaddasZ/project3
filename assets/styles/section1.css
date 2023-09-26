@@ -1,0 +1,35 @@
+.section1 {
+    box-sizing: border-box;
+    background-color: #3585F5;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+.id-conf {
+    width: 556px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #FFF;
+    color: #828282;
+font-family: Proxima Nova;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 17.92px */
+padding-left: 20px;
+
+
+}
+.submit {
+    padding: 20px 62px;
+    border-radius: 20px;
+    background: #FFF;
+    margin-left: 20px;
+}
+.submit:hover {
+    border-radius: 20px;
+border: 2px solid #FFF;
+color: #FFF;
+}

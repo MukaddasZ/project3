@@ -1,0 +1,42 @@
+.section7 {
+    width: 100%;
+    color: #3585F5;
+font-family: Proxima Nova;
+font-size: 22px;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 24.64px */
+
+}
+.section7_line {
+    margin: 88px 150px 116px;
+    background: #3585F5;
+    border: solid #3585F5;
+}
+.section8_title {
+    color: #3584F4;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 112%; /* 33.6px */
+}
+.section7_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    /* align-items: center; */
+}
+.section7_content {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 24px;
+  
+  
+   
+}
+
+
+   

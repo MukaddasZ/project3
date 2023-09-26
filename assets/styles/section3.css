@@ -1,0 +1,132 @@
+.section3 {
+    margin-top: 32px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.section3_main_title {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+.section3_main_title :first-child {
+color: #8A8A8A;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 112%; /* 33.6px */
+}
+.section3_main_title :last-child {
+    color: #3585F5;
+font-family: Proxima Nova;
+font-size: 30px;
+font-style: normal;
+font-weight: 800;
+line-height: 112%;
+
+}
+.section3_conditions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: center;
+}
+.section3_content {
+    width: 360px;
+    height: 432px;
+    background: #3585F5;
+    text-align: center;
+    color: #FFF;
+    padding: 36px 20px;
+
+}
+.section3_title {
+    color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 20px;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 22.4px */
+}
+.section3_line {
+    margin: 14px 20px;
+}
+.section3_download {
+    margin-top: 30px;
+    align-items: center;
+}
+.section3_description {
+ color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 17.92px */
+}
+.section3_description2 {
+    padding-top: 32px;
+}
+.section3_description2 p {
+color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 17.92px */
+
+}
+.section3_about_price {
+    color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 112%; /* 22.4px */
+padding-top: 36px;
+}
+.section3_price {
+    display: flex;
+    align-items: baseline;
+    gap: 8px;
+    justify-content: center;
+    padding-top: 16px;
+color: #FFF;
+text-align: right;
+font-family: Proxima Nova;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 20.16px */
+}
+.section3_price p {
+    color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 46px;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 51.52px */
+
+}
+.section3_price h3 {
+color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 30px;
+font-style: normal;
+font-weight: 700;
+line-height: 112%; /* 33.6px */
+margin-top: 36px;
+}
+.section3_download {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}

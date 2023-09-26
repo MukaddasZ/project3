@@ -1,0 +1,40 @@
+.section8_cover {
+    position: absolute;
+    margin-top: 144px;
+}
+.section8_container {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 260px;
+    /* align-items: center; */
+}
+.section8_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    padding: 35px 50px;
+}
+.section8_content h3 {
+    color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: 112%; /* 26.88px */
+margin-top: 20px;
+}
+
+.section8_content p {
+    color: #FFF;
+text-align: center;
+font-family: Proxima Nova;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 112%; /* 17.92px */
+width: 280px;
+}
